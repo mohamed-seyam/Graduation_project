@@ -50,10 +50,10 @@ https://user-images.githubusercontent.com/61396368/193660517-9610bd03-dcd3-43c1-
 This cascaded pipeline can support physicians while making diagnostic decisions. The dynamic frames model reduces the initial examination time by more than 50\%. Pharyngeal model further separate pharyngeal frames by only working on the dynamic frames which will reduce the overall inference time of subsequent networks. The system can also provide a joint model which localize the third and fourth cervical vertebral (C3 and C4) anatomic scalars along with the hyoid bone with a mean average precision more than 71% at IoU=0.5 which add interpretive value to the judgement of hyoid displacement [4]. The segmentation model can extract the food bolus with 78% Jaccard Index which provide objective method for clinicians to track bolus flow or detect the bolus residue during VFSS.
 
 ## References 
-[1] Clave, P., & Shaker, R. (2015). Dysphagia: current reality and scope of the problem. Nature reviews. Gastroenterology & hepatology, 12(5), 259–270.
-[2] Palmer, J. B., Kuhlemeier, K. V., Tippett, D. C., & Lynch, C. (1993). A protocol for the videofluorographic swallowing study. Dysphagia, 8(3), 209–214.
-[3] McCullough, G. H., Wertz, R. T., Rosenbek, J. C., Mills, R. H., Webb, W. G., & Ross, K. B. (2001). Inter- and intrajudge reliability for videofluoroscopic swallowing evaluation measures. Dysphagia, 16(2), 110–118.
-[4] Zhang, Z., Coyle, J. L., & Sejdi ́c, E. (2018). Automatic hyoid bone detection in fluoroscopic images using deep learning. Scientific reports, 8(1), 12310.
+1. Clave, P., & Shaker, R. (2015). Dysphagia: current reality and scope of the problem. Nature reviews. Gastroenterology & hepatology, 12(5), 259–270.
+2. Palmer, J. B., Kuhlemeier, K. V., Tippett, D. C., & Lynch, C. (1993). A protocol for the videofluorographic swallowing study. Dysphagia, 8(3), 209–214.
+3. McCullough, G. H., Wertz, R. T., Rosenbek, J. C., Mills, R. H., Webb, W. G., & Ross, K. B. (2001). Inter- and intrajudge reliability for videofluoroscopic swallowing evaluation measures. Dysphagia, 16(2), 110–118.
+4. Zhang, Z., Coyle, J. L., & Sejdi ́c, E. (2018). Automatic hyoid bone detection in fluoroscopic images using deep learning. Scientific reports, 8(1), 12310.
 
 ## Future Work Suggestion
 Making a subsequent model to automatically detect the bolus residue and the airway invasion (food presence in larynx). Detecting pharyngeal phase based on dynamic region of interest (ROI) from the C2-C4 Segment.

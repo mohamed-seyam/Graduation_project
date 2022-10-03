@@ -5,9 +5,27 @@ AI-Powered Toolkit for Automated Swallowing Kinematic Analysis in X-Ray
 Videofluoroscopy
 
 ## Problem summary
-Swallowing is a well-coordinated neuromuscular process essential for human survival in which the food is transferred from the oral cavity into the stomach. Swallowing involves the coordination between multiple anatomical structures in the head/neck regions to function properly and many of these anatomical structures are shared pathways between swallowing and respiration [1]. As a result, any dysfunction or discoordination in the swallowing process can result in rerouting food from its original path to the stomach into the airway. Swallowing dysfunction is known as dysphagia and can lead to severe complications including malnutrition, dehydration, and aspiration pneumonia. Videofluroscopic swallowing study (VFSS) is considered the gold standard examination to diagnose dysphagia. Clinicians examine x-ray-recorded videos to evaluate all the aspects of the swallowing process including the bolus motion, airway protection, and hyoid bone motion [2]. The evaluation of VFSS is done in a frame-by-frame fashion which is subjective and requires trained clinicians to perform. Moreover, VFSS is a labor-intensive process in which clinicians track anatomical components that are small and hard to be visually detected in a series of x-ray images [3].
+Swallowing is a well-coordinated neuromuscular process essential for human survival in which the food is transferred from the oral cavity into the stomach. Swallowing involves the coordination between multiple anatomical structures in the head/neck regions to function properly and many of these anatomical structures are shared pathways between swallowing and respiration [1]. 
+
+
+https://user-images.githubusercontent.com/61396368/193665945-886038f6-24b7-4e7a-9cf5-b5a1674a8d70.mp4
+
+
+
+As a result, any dysfunction or discoordination in the swallowing process can result in rerouting food from its original path to the stomach into the airway. Swallowing dysfunction is known as dysphagia and can lead to severe complications including malnutrition, dehydration, and aspiration pneumonia. 
+![image](https://user-images.githubusercontent.com/61396368/193666088-9de11176-6462-4afd-90e5-9cda02eff94e.png)
+
+
+Videofluroscopic swallowing study (VFSS) is considered the gold standard examination to diagnose dysphagia. Clinicians examine x-ray-recorded videos to evaluate all the aspects of the swallowing process including the bolus motion, airway protection, and hyoid bone motion [2]. The evaluation of VFSS is done in a frame-by-frame fashion which is subjective and requires trained clinicians to perform. Moreover, VFSS is a labor-intensive process in which clinicians track anatomical components that are small and hard to be visually detected in a series of x-ray images [3].
+
+
+https://user-images.githubusercontent.com/61396368/193666966-e1683a8b-090b-400a-82d3-9e7d9909fe09.mp4
+
+
 
 ## Methodology
+![image](https://user-images.githubusercontent.com/61396368/193666853-c69744e0-78a8-46c9-b947-c4a4d01ed9fd.png)
+
 ➢ First, we extract the swallowing segments within the VFSS videos through the calculation of optical flow which estimates the relative motion between each two subsequent frames. Optical flow between each consecutive VFSS frames is then introduced to a DNN that identifies frames that include bolus motion.A subsequent DNN is then used to separate the frames with motion that belong to the pharyngeal phase only.
 
 ➢ Second, we use a third deep neural network to automatically detect the location of hyoid bone with reference to C2 and C4 vertebras as its motion is highly associated with the level of airway protection and swallowing integrity.

@@ -24,7 +24,9 @@ Swallowing is a well-coordinated neuromuscular process essential for human survi
 5. Graphical User Interface (PyQt5).
 
 ## Main Results 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uGX1fF0DIhI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+https://user-images.githubusercontent.com/61396368/193660517-9610bd03-dcd3-43c1-8316-57cb02707b18.mp4
+
 
 ## Discussion And Conclusion
 This cascaded pipeline can support physicians while making diagnostic decisions. The dynamic frames model reduces the initial examination time by more than 50\%. Pharyngeal model further separate pharyngeal frames by only working on the dynamic frames which will reduce the overall inference time of subsequent networks. The system can also provide a joint model which localize the third and fourth cervical vertebral (C3 and C4) anatomic scalars along with the hyoid bone with a mean average precision more than 71% at IoU=0.5 which add interpretive value to the judgement of hyoid displacement [4]. The segmentation model can extract the food bolus with 78% Jaccard Index which provide objective method for clinicians to track bolus flow or detect the bolus residue during VFSS.
